@@ -305,7 +305,6 @@ header {
     display: block; }
 
 #regexp-render {
-  background: #fff;
   width: 100%;
   overflow: auto;
   text-align: center;
