@@ -469,8 +469,8 @@ function showExportImage() {
 
 function svgDataURL(svg) {
   var svgAsXML = (new XMLSerializer).serializeToString(svg);
-  console.log(svgAsXML);
-  return "data:image/svg+xml," + encodeURIComponent(svgAsXML);
+  document.body.innerHTML = svgAsXML;
+  //return "data:image/svg+xml," + encodeURIComponent(svgAsXML);
 }
 
 
